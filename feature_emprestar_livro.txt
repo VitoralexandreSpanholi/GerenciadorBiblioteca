@@ -1,0 +1,51 @@
+Algoritmo "SistemaBiblioteca"
+
+Var
+titulo : caractere
+autor : caractere
+ano : inteiro
+livroExcluir : caractere
+livroEmprestimo : caractere
+nomeUsuario : caractere
+
+Inicio
+
+```
+Escreva("=== CADASTRO DE LIVROS ===")
+
+Escreva("Digite o titulo do livro: ")
+Leia(titulo)
+
+Escreva("Digite o autor do livro: ")
+Leia(autor)
+
+Escreva("Digite o ano de publicacao: ")
+Leia(ano)
+
+Escreval("")
+Escreval("=== LIVRO CADASTRADO COM SUCESSO ===")
+Escreval("Titulo: ", titulo)
+Escreval("Autor: ", autor)
+Escreval("Ano: ", ano)
+
+Escreval("")
+Escreval("=== EXCLUSAO DE LIVRO ===")
+
+Escreva("Digite o titulo do livro que deseja excluir: ")
+Leia(livroExcluir)
+
+Escreval("Livro ", livroExcluir, " excluido com sucesso.")
+
+Escreval("")
+Escreval("=== EMPRESTIMO DE LIVRO ===")
+
+Escreva("Digite o titulo do livro para emprestimo: ")
+Leia(livroEmprestimo)
+
+Escreva("Digite o nome do usuario: ")
+Leia(nomeUsuario)
+
+Escreval("Livro ", livroEmprestimo, " emprestado para ", nomeUsuario)
+```
+
+FimAlgoritmo
